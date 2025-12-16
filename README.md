@@ -25,3 +25,22 @@ git add f2.txt
 git status 
 git commit -m "hello"
 git log
+
+
+
+
+program4
+mkdir
+cd
+git init
+git clone"repo url"
+ls
+cd pull
+ls
+git init
+git pull"repo url"
+ls
+echo
+git add .
+git remote set url origin"token url@repourl
+git push origin main
