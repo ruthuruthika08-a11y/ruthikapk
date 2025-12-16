@@ -71,3 +71,27 @@ git commit -m "stash program "
 git checkout branch-a
 git stash pop
 
+
+
+
+program5
+mkdir
+cd
+git init
+git clone"repo url"
+ls
+cd repo name
+git branch
+gedit f1.txt
+gedit f2.txt
+git add .
+git commit -m "hello"
+git log
+git checkout main
+git log
+git rebase feature 
+git remote set-url"https:tokenurl@repourl
+git push origin main
+cd 
+git init 
+git pull repourl
