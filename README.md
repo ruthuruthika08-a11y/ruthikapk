@@ -2,9 +2,10 @@
 program 2 
 mkdir ruthika
 cd ruthika
-git branch -b feature branch
-gedit file.c
-git add .
+git branch feature branch
+gedit file.txt
+git status
+git add file.txt
 git status
 git commit -m "hello world"
 git branch
