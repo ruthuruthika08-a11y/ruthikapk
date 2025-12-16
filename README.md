@@ -44,3 +44,30 @@ echo
 git add .
 git remote set url origin"token url@repourl
 git push origin main
+
+
+
+program 3
+mkdir stashex
+cd stashex
+git init
+echo"stash example">file.txt
+git add .
+git stash
+git commit -m " hello world "
+git stash
+git checkout branch-a
+git branch branch-a
+git checkout branch-a
+echo"some contents to stash">file.txt
+git add .
+git stash
+git checkout branch-b-name
+git branch branch-b-name
+git checkout branch-b-name
+echo"some text to add">file.txt
+git add. 
+git commit -m "stash program "
+git checkout branch-a
+git stash pop
+
