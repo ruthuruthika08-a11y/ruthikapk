@@ -40,9 +40,9 @@ ls
 git init
 git pull"repo url"
 ls
-echo
+echo"pull contents">file.txt
 git add .
-git remote set url origin"token url@repourl
+git remote set-url origin"token url"@"repourl"
 git push origin main
 
 
